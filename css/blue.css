@@ -1,0 +1,33 @@
+body {
+    background: url("../img/cielo.jpg");
+    background-attachment: fixed;
+  }
+
+:root {
+    --theme-color: #1f87c4;
+}
+
+#logo{
+    background: var(--theme-color);
+}
+
+
+#menu ul li:hover {
+    background: var(--theme-color);
+}
+
+.post .button-more {
+    background: var(--theme-color);
+}
+
+#logout{
+    background: var(--theme-color);
+}
+
+.ui-accordion-header-active, .ui-state-active{
+    background-color: var(--theme-color) !important;
+}
+
+.ui-state-hover{
+    background-color: #1f88c432 !important;
+}

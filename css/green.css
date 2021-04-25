@@ -1,0 +1,34 @@
+body {
+    background: url("../img/hojas.jpg");
+    background-attachment: fixed;
+  }
+
+:root {
+    --theme-color: #235E3D;
+}
+
+
+#logo{
+    background: var(--theme-color);
+}
+
+
+#menu ul li:hover {
+    background: var(--theme-color);
+}
+
+.post .button-more {
+    background: var(--theme-color);
+}
+
+#logout{
+    background: var(--theme-color);
+}
+
+.ui-accordion-header-active, .ui-state-active{
+    background-color: var(--theme-color) !important;
+}
+
+.ui-state-hover{
+    background-color: #235E3D32 !important;
+}
