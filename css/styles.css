@@ -26,16 +26,16 @@ body {
 }
 
 #logo {
-  font-size: 28px;
-  letter-spacing: 4px;
-  background: #235E3D;
-  color: #fff;
-  text-align: center;
   width: 385px;
   height: 80px;
   margin-bottom: 20px;
-  line-height: 80px;
   float: left;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 4px;
+  line-height: 80px;
+  background: #235e3d;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -60,7 +60,7 @@ body {
   padding-right: 30px;
 }
 #menu ul li:hover {
-  background: #235E3D;
+  background: #235e3d;
 }
 
 #posts {
@@ -89,7 +89,7 @@ body {
 }
 .post .button-more {
   padding: 15px;
-  background: #235E3D;
+  background: #235e3d;
   color: #fff;
   margin-top: 10px;
   width: 70px;
@@ -158,7 +158,8 @@ footer a {
   float: right;
 }
 
-.bx-wrapper, .bx-viewport {
+.bx-wrapper,
+.bx-viewport {
   height: 250px !important;
 }
 
@@ -184,7 +185,7 @@ footer a {
 }
 
 #to-green {
-  background: #235E3D;
+  background: #235e3d;
 }
 
 #to-red {
